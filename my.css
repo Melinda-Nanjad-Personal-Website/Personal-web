@@ -1,0 +1,42 @@
+
+body{
+    background-color:darkcyan
+}
+
+font{
+    font-style: italic;
+    font-size: large;
+}
+
+H1{color:coral }
+
+H2 {color:deeppink}
+
+p{color:black;
+font-weight: 400;
+font-size:x-large}
+
+.navbar a:hover {
+    background-color: mediumslateblue;
+    color: black;
+  }
+
+  p {padding-top:30%}
+
+  p {padding-right:20px;}
+
+  p {padding-bottom:5 em;}
+
+
+  p {padding-left: 15 pt;}
+
+  p {font-weight:bold;}
+
+  
+
+Div{
+width: 400px;
+border: 15px; solid pink
+padding: 50px;
+margin: 20px;
+}
