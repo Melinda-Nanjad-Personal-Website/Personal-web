@@ -1,5 +1,5 @@
 # Personal-web
-Redo of Personal Website
+Personal Website
 Implement What we have learned thus far
 applications such as:
 HTML
