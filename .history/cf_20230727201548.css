@@ -1,0 +1,19 @@
+.border-primary-400{
+    border: 2px solid #a775f1;
+}
+
+.container {
+    display: grid;
+    gap: 1.5 rem;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.item-1 {
+    grid-row- span 2;
+    grid-column: 1/5;
+}
+
+.item-2 {
+    grid-row: span 3;
+    grid column: 3/5
+}

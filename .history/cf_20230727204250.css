@@ -1,0 +1,29 @@
+.border-primary-400{
+    border: 2px solid #a775f1;
+}
+
+.container {
+    display: grid;
+   grid gap: 1.5rem;
+    grid-template-columns: auto auto auto;
+}
+
+.item-1 {
+    grid-row- span4;
+    grid-column: 1/5;
+    background-color: hotpink;
+    padding: 5px
+    grid-area: main;
+}
+
+.item-2 {
+    grid-row: span 3;
+    grid column 1/5;
+    grid-area:left
+}
+
+.item-3 {
+    grid-row: span
+    grid column 1/5;
+    grid-area :right
+}
