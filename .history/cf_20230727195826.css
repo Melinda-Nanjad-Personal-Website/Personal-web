@@ -1,0 +1,9 @@
+.border-primary-400{
+    border: 2px solid #a775f1;
+}
+
+.contact info- grid {
+    display: grid;
+    gap: 1.5 rem;
+    grid-template-columns: 1fr 1fr 1fr;
+}

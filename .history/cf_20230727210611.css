@@ -33,11 +33,12 @@
   display: grid;
   column-gap: 50px;
   grid-template-columns: 1fr 1fr 1fr;
+  background-color: #6e2d89;
   padding: 50px;
 }
 
 .grid-item{
-  background-color: rgba(97, 148, 160, 0.8);
+  background-color: rgba(59, 54, 144, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 20px;
   font-size: 14px;
