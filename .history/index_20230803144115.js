@@ -240,12 +240,3 @@ for (let i = array.length -1; i >=0;i--) {
 
 console.log(reversedArray)
 //[13,-8,5,-3,2,-1,1]
-
-//fizzbuzz
-//Create a JavaScript code that prints each number from 1 to 100 on a new line.
-//For each multiple of 3, print "Fizz" instead of the number.
-//For each multiple of 5, print "Buzz" instead of the number.
-//For numbers that are multiples of both 3 and 5, print "FizzBuzz" instead of the number.
-//
-
-

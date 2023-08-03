@@ -96,9 +96,9 @@ if else sum is equal 0 then print " is equal to 0";
 if else num is largen then 0 " is larger than 0";
 if else sum is greater than 10 then print " is greater than 100" */
 
-let num1 = 50;
-let num2 = 51;
-let sum = num1 + num2;
+let numm1 = 50;
+let numm2 = 51;
+let sum = numm1 + numm2;
 
 if (sum < -1000) {
   console.log(sum + " is less than -1000");
@@ -128,10 +128,6 @@ if (num1 >= 5 && num2 >= 5) {
 /* if two set of values equal then true
 if two values one set does not qeual then false 
 */
-// Pair and Compare
-//IF else statments
-//Script
-//cat=
 
 const param1A = "cat";
 const param1B = "cat";
@@ -147,105 +143,24 @@ if (param1A === param1B || param1A == param1B) {
   } else {
       console.log(false);
   }
+}
+
+// Pair and Compare
+//IF else statments
+//Script
+//cat=
+<script>
+    if (cat)
+</script>
+
+
 
 //LOOPS & ARRAYS
 //Only odd numbers should be displayed, if there is ony one odd number in the array, return an array with that single value.
 //input 2,4,6,8,11,20,15,22
-// constant number which are given, should only print the odd numbers
-
-
-    const oddNumbers = [2,4,6,8,11,20,15,22].filter((number) => number%2!==0);
-console.log(oddNumbers);
-
-const oddNumbers = [1,2,3,4,5,6,7,8,9,10].filter((number) => number%2!==0);
-console.log(oddNumbers);
-
-const oddNumbers = [70,42,55,81,21,91,34].filter((number) => number%2!==0);
-console.log(oddNumbers);
-
-const oddNumbers = [12,4,6,8,10,12].filter((number) => number%2!==0);
-console.log(oddNumbers);
-
-// Vowels versus Consonant
-//"a,,e,i,o,u"
-//Define two variables that keep track of the number of consonants and vowels
-//Strings
-//Count ++ ? 
-//lowercase letters
-
-const stringtocheck= "hello";
-console.log (stringtocheck);
-    let a,e,i,o,u count = 0;
-    for (let i = 0; i < stringtocheck.length, i++) {
-        if (
-            stringtocheck [i] =="a"
-            stringtocheck [i] =="e"
-            stringtocheck [i] =="i"
-            stringtocheck [i] =="o"
-            stringtocheck [i] =="u"
-        ) {
-            a,e,i,o,u count++
-        }
-}
-console.log("RESULT", vowels,consonant);
-
-// Reverse array using a FOR LOOP
-//shift,unshift, pop ,splice,slice,push ?
-//
-//1,2,3, expected to print ,3,2,1
-const array = [1,2,3,4,]
-const reversedArray=[]
-
-for (let i = array.length -1; i >=0;i--) {
-    const valueAtIndex= array[i]
-    
-    reversedArray.push(valueAtIndex)
-}
-
-console.log(reversedArray)
-//[4,3,2,1]
-
-const array = [1,3,5,7,9,11]
-const reversedArray=[]
-
-for (let i = array.length -1; i >=0;i--) {
-    const valueAtIndex= array[i]
-    
-    reversedArray.push(valueAtIndex)
-}
-
-console.log(reversedArray)
-//[11,9,7,5,3,1]
-
-const array = [20,50,30,60,200]
-const reversedArray=[]
-
-for (let i = array.length -1; i >=0;i--) {
-    const valueAtIndex= array[i]
-    
-    reversedArray.push(valueAtIndex)
-}
-
-console.log(reversedArray)
-//[200,60,30,50,20]
-
-const array = [1,-1,2,-3,5,-8,13]
-const reversedArray=[]
-
-for (let i = array.length -1; i >=0;i--) {
-    const valueAtIndex= array[i]
-    
-    reversedArray.push(valueAtIndex)
-}
-
-console.log(reversedArray)
-//[13,-8,5,-3,2,-1,1]
-
-//fizzbuzz
-//Create a JavaScript code that prints each number from 1 to 100 on a new line.
-//For each multiple of 3, print "Fizz" instead of the number.
-//For each multiple of 5, print "Buzz" instead of the number.
-//For numbers that are multiples of both 3 and 5, print "FizzBuzz" instead of the number.
-//
-
-
+if (input 2,4,6,8,11,20,15,22 ===0 ) {
+    console.log ("odd")
+} 
+let (Array)
+let num =()
+for (let i = ; 
