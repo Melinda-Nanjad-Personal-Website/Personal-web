@@ -31,5 +31,5 @@ customer.todaysPurchaseCost = 5.32;
 const surveyKeys = Object.keys(customer);
 console.log(surveyKeys);
 
-// Check work
+// Check your work with console.table
 console.table(customer);
