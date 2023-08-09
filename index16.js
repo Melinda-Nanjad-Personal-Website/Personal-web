@@ -52,4 +52,3 @@ function couponDiscountApplied
 
 //discount for subscription
 //use if or else
-//each customer's final cost
