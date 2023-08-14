@@ -80,7 +80,3 @@ console.log("All drinks:", allDrinks);
 // Drinks under $5
 const lowDrinks = coffeeMenu.filter (item => item.price <= 5).map(item => item.name);
 console.log(lowDrinks);
-
-// Drinks that are Even number
-const evenDrinks = coffeeMenu.filter ( drink => drink.price % 2 === 0);
-console.log (evenDrinks);
