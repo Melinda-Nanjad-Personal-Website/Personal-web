@@ -24,11 +24,11 @@ For example: "affogato with imported beans" */
 const coffeeMenu = [
   {
     name: "cappuccino",
-    price: 8,
+    price: "8",
     seasonal: false,
   },
   {
-    name: "espresso",
+    name: espresso,
     price: 5,
     seasonal: false,
   },
@@ -38,28 +38,28 @@ const coffeeMenu = [
     seasonal: false,
   },
   {
-    name: "affogato",
-    price: 9,
+    name: affogato,
+    price: "9",
     seasonal: true,
   },
   {
     name: "macchiato",
-    price: 6,
+    price: "6",
     seasonal: false,
   },
   {
-    name: "americano",
+    name: americano,
     price: 7,
     seasonal: false,
   },
   {
     name: "iced coffee",
-    price: 6,
+    price: "6",
     seasonal: false,
   },
   {
-    name: "frappe",
-    price: 8,
+    name: frappe,
+    price: "8",
     seasonal: false,
   },
   {
@@ -69,6 +69,7 @@ const coffeeMenu = [
   },
 ];
 
+const coffeeMenu = require("./coffee_data");
 module.exports = coffeeMenu;
 
 //Print an Array of all the drinks
@@ -86,11 +87,10 @@ const evenDrinks = coffeeMenu.filter((drink) => drink.price % 2 === 0);
 console.log(evenDrinks);
 
 //Print total as if you were to order one of every drink
-const totalCost = coffeeMenu(allDrinks * sum);
-let sum = "totalCost";
-console.log(totalCost);
+const totalCost = coffeeMenu(item.price);
+
+//Print an array with all the drinks that are seasonal.
+const seasonalDrinks = coffeeMenu.filter();
 
 /*Print all the seasonal drinks with the words 
-"with imported beans" after the item name */
-const seasonalDrinks = coffeeMenu.filter();
-console.log(seasonalDrinks);
+"with imported beans" after the item name */ S;

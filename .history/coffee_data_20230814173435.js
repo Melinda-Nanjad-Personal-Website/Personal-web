@@ -86,8 +86,7 @@ const evenDrinks = coffeeMenu.filter((drink) => drink.price % 2 === 0);
 console.log(evenDrinks);
 
 //Print total as if you were to order one of every drink
-const totalCost = coffeeMenu(allDrinks * sum);
-let sum = "totalCost";
+const totalCost = coffeeMenu(item.price * sum);
 console.log(totalCost);
 
 /*Print all the seasonal drinks with the words 
