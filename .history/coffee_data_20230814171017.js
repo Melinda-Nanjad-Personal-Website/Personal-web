@@ -28,7 +28,7 @@ const coffeeMenu = [
     seasonal: false,
   },
   {
-    name: "espresso",
+    name: espresso,
     price: 5,
     seasonal: false,
   },
@@ -38,7 +38,7 @@ const coffeeMenu = [
     seasonal: false,
   },
   {
-    name: "affogato",
+    name: affogato,
     price: "9",
     seasonal: true,
   },
@@ -48,7 +48,7 @@ const coffeeMenu = [
     seasonal: false,
   },
   {
-    name: "americano",
+    name: americano,
     price: 7,
     seasonal: false,
   },
@@ -58,7 +58,7 @@ const coffeeMenu = [
     seasonal: false,
   },
   {
-    name: "frappe",
+    name: frappe,
     price: "8",
     seasonal: false,
   },
@@ -86,11 +86,10 @@ const evenDrinks = coffeeMenu.filter((drink) => drink.price % 2 === 0);
 console.log(evenDrinks);
 
 //Print total as if you were to order one of every drink
-const totalCost = coffeeMenu(item.price * sum);
-console.log (totalCost);
+const totalCost = coffeeMenu(item.price);
+
+//Print an array with all the drinks that are seasonal.
+const seasonalDrinks = coffeeMenu.filter();
 
 /*Print all the seasonal drinks with the words 
-"with imported beans" after the item name */
-const seasonalDrinks = coffeeMenu.filter. ()
-
-
+"with imported beans" after the item name */ S;
