@@ -1,0 +1,122 @@
+//let sum = even or odd
+
+let input = 14;
+if (input % 2 === 0) console.log("even");
+else {
+  console.log("odd");
+}
+
+let value1 = "I am a string";
+            if (value1) {
+              console.log(true);
+            }
+
+            let value2 = false;
+            if (value2 === false) {
+              console.log("The boolean value false is falsy");
+            }
+
+            let value3 = null;
+            if (value3 === null) {
+              console.log("The null value is falsy");
+            }
+
+            let value4;
+            if (value4 === undefined) {
+              console.log("undefined is falsy");
+            }
+
+            let value5 = 0;
+            if (value5 === 0) {
+              console.log("The number 0 is falsy (the only falsy number)");
+            }
+
+            let value6 = "";
+            if (value6 === "") {
+              console.log("The empty string is falsy (the only falsy string)");
+            }
+      // Number Line 1
+            let num1 = 50;
+            let num2 = 51;
+            if (sum > 101);
+            console.log("101 is greater than 100");
+
+            if (sum < -1000) {
+
+              console.log(sum + "is less than -1000"); }
+
+              else if (sum)
+
+
+          // Number line Test 2
+          num1 = 99;
+          num2 = -2;
+          sum = num1 + num2;
+
+          if (sum > 0) {
+
+            console.log(sum + " is greater than 0");
+          }
+
+          //Number line test 3
+          num1 = 0;
+          num2 = 101;
+          sum = num1 + num2;
+
+          if (sum > 101) {
+      console.log(sum + "is greater than 100");
+          }
+
+          //Number line 4
+          num1 = 500;
+          num2 = -500;
+          sum = num1 + num2;
+
+          if (sum === 0) {
+            console.log(sum + " is equal to 0");
+          }
+
+          //Number Line 5
+          num1 = -1000;
+          num2 = 0;
+          sum = num1 + num2;
+
+          if (sum < -1000) {
+            console.log(sum + "-1000 is a negative number");
+          }
+
+          // Number line 6
+          num1 + -5;
+          num2 = 0;
+          sum = num1 + num2;
+
+          if (sum < 0) {
+            console.log(sum + "is a negative number");
+          }
+
+          // Greater than 5
+          //1
+          num1 = 5;
+          num2 = 6;
+          if (num1 >= 5 && num2 >= 5) {
+            console.log(true);
+          }
+
+          //2
+          num1 = 10;
+          num2 = 11;
+          if (num1 >= 5 && num2 >= 5) {
+            console.log(true);
+        }
+
+        //3
+
+        num1 = 0;
+        num2 = 0;
+        if (num1 >= 5 && num2 >= 5) {
+            console.log(true);
+            {
+                else {
+                    console.log(false);
+                }
+            }

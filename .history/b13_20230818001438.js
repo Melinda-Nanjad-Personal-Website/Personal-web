@@ -38,7 +38,6 @@ if (value6 === "") {
 // Number Line 1
 let num1 = 50;
 let num2 = 51;
-let sum = num1 + num2;
 if (sum > 101);
 console.log("101 is greater than 100");
 
@@ -113,48 +112,4 @@ if (num1 >= 5 && num2 >= 5) {
   console.log(true);
 } else {
   console.log(false);
-}
-
-//4
-num1 = 1000;
-num2 = -1000;
-if (num1 >= num2) {
-  console.log(false);
-}
-
-//5
-num1 = 6;
-num2 = -4;
-if (num1 >= num2) {
-  console.log(false);
-}
-
-//6
-num1 = 5;
-num2 = -5;
-if (num1 >= num2) {
-  console.log(true);
-}
-
-//Comparison
-
-let param1A, param1B, param2A, param2B;
-// Row 1
-let param1A = "cat";
-let param1B = "cat";
-let param2A = 6;
-let param2B = "6";
-
-if ((param1A && param1B) || (param2A && param2B)) {
-  console.log(true);
-}
-
-//Row 2
-let param1A = "five";
-let param1B = 5;
-let param2A = "dog";
-let param2B = "dawg";
-
-if ((param1A && param1B) || (param2A && param2B)) {
-  console.log(true);
 }

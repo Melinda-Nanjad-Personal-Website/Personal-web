@@ -1,0 +1,88 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Create a container for the artwork */
+.artwork {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Viewport height */
+  background-color: #f0f0f0;
+}
+
+.abstract-painting {
+  width: 300px;
+  height: 300px;
+  background: linear-gradient(45deg, #ff5733, #008cba);
+  border-radius: 50%;
+  position: relative;
+  transform: rotate(45deg);
+  overflow: hidden;
+}
+
+.circle {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(-45deg, #008cba, #ff5733);
+  border-radius: 50%;
+}
+
+.circle-1 {
+  top: 30px;
+  left: 50px;
+}
+
+.circle-2 {
+  top: 120px;
+  right: 60px;
+  width: 150px;
+  height: 150px;
+}
+
+.circle-3 {
+  bottom: 30px;
+  left: 100px;
+  width: 80px;
+  height: 80px;
+}
+
+/* Styling for the form */
+.interested-form {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  z-index: 10; /* Ensure the form is on top */
+}
+
+/* Apply responsive design using media queries */
+@media screen and (max-width: 1680px) {
+  .artwork {
+    background-color: #eee;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .interested-form {
+    bottom: 10px;
+    right: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .interested-form {
+    bottom: 5px;
+    right: 5px;
+    padding: 10px;
+  }
+}
