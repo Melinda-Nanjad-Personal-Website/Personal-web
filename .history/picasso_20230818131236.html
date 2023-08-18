@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <link rel="stylesheet" href="picasso.css" />
+  <body>
+    <h1>Fullstack Welcome To Abtract</h1>
+
+    <div class="artwork">
+      <!-- Your abstract artwork goes here -->
+    </div>
+
+    <form class="interested-form" action="formsubmitted.html">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <button type="submit">Submit</button>
+    </form>
+    <!DOCTYPE html>
+    <html>
+      <head>
+        <title>Abstract Painting with CSS</title>
+        <style>
+          body {
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background-color: #f0f0f0;
+          }
+
+          .abstract-painting {
+            width: 300px;
+            height: 300px;
+            background: linear-gradient(45deg, #6633ff, #e078bf);
+            border-radius: 50%;
+            position: relative;
+            transform: rotate(45deg);
+            overflow: hidden;
+          }
+
+          .circle {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            background: linear-gradient(-45deg, #e47bdf, #31efe2);
+            border-radius: 50%;
+          }
+
+          .circle-1 {
+            top: 30px;
+            left: 50px;
+          }
+
+          .circle-2 {
+            top: 120px;
+            right: 60px;
+            width: 150px;
+            height: 150px;
+          }
+
+          .circle-3 {
+            bottom: 30px;
+            left: 100px;
+            width: 80px;
+            height: 80px;
+          }
+
+          /* Styling for the form */
+          .interested-form {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: rgb(255, 255, 255);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+            z-index: 10; /* Ensure the form is on top */
+          }
+        </style>
+      </head>
+      <body>
+        <div class="abstract-painting">
+          <div class="circle circle-1"></div>
+          <div class="circle circle-2"></div>
+          <div class="circle circle-3"></div>
+        </div>
+      </body>
+    </html>
+  </body>
+</html>
