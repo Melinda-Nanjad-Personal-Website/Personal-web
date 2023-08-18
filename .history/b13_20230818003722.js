@@ -136,25 +136,24 @@ if (num1 >= num2) {
   console.log(true);
 }
 
-//Comparison
 
-let param1A, param1B, param2A, param2B;
-// Row 1
-let param1A = "cat";
-let param1B = "cat";
-let param2A = 6;
-let param2B = "6";
+            //Comparison 
 
-if ((param1A && param1B) || (param2A && param2B)) {
-  console.log(true);
-}
+            // Row 1
+            let param1A = "cat";
+            let param1B	= "cat";
+            let param2A = 6;
+            let param2B = "6";
 
-//Row 2
-let param1A = "five";
-let param1B = 5;
-let param2A = "dog";
-let param2B = "dawg";
+            if (param1A && param1B || param2A && param2B) {
+              console.log(true);
+            }
 
-if ((param1A && param1B) || (param2A && param2B)) {
-  console.log(true);
-}
+            //Row 2
+             let param1A = "five";
+            let param1B	= 5;
+            let param2A = "dog";
+            let param2B = "dawg";
+
+            if (param1A && param1B || param2A && param2B) {
+              console.log(false);

@@ -117,64 +117,62 @@
       //Comparison
 
       // Row 1
-      param1A = "cat";
-      param1B = "cat";
-      param2A = 6;
-      param2B = "6";
+      let param1A = "cat";
+      let param1B = "cat";
+      let param2A = 6;
+      let param2B = "6";
 
       if ((param1A && param1B) || (param2A && param2B)) {
         console.log(true);
       }
 
       //Row 2
-      param1A = "five";
-      param1B = 5;
-      param2A = "dog";
-      param2B = "dawg";
+      let param1A = "five";
+      let param1B = 5;
+      let param2A = "dog";
+      let param2B = "dawg";
 
       if ((param1A && param1B) || (param2A && param2B)) {
         console.log(false);
       }
-
+ 
       // Row 3
-      param1A = 0;
-      param1B = false;
-      param2A = "horse";
-      param2B = "horse";
+       let param1A = 0;
+      let param1B = false;
+      let param2A = "horse";
+      let param2B = "horse";
 
       if ((param1A && param1B) || (param2A && param2B)) {
         console.log(true);
       }
 
       // Row 4
-      param1A = "eight";
-      param1B = "eight";
-      param2A = "ate";
-      param2B = "ate";
+  param1A = "eight";
+       param1B = "eight";
+       param2A = "ate";
+       param2B = "ate";
 
       if ((param1A && param1B) || (param2A && param2B)) {
         console.log(true);
       }
       // Row 5
-      param1A = 11;
-      param1B = "eleven";
-      param2A = "four";
-      param2B = "for";
+  param1A = 11;
+       param1B = "eleven";
+       param2A = "four";
+       param2B = "for";
 
       if ((param1A && param1B) || (param2A && param2B)) {
-        console.log(true);
-      } else {
-        console.log(false);
+        console.log(true); 
+        } else {
+      console.log(false);
+    }
       }
 
-      //Row 6
-      param1A = "cake";
-      param1B = "cake";
-      param2A = "pie";
-      param2B = "pie";
-      if ((param1A && param1B) || (param2A && param2B)) {
-        console.log(true);
-      }
-    </script>
-  </body>
-</html>
+      / /Row 6
+   param1A = "cake";
+    param1B = "cake";
+    param2A = "pie";
+    param2B = "pie";
+    if (param1A && param1B || param2A && param2B) {
+      console.log(true);
+    }

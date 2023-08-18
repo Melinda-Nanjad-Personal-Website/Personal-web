@@ -156,5 +156,5 @@ let param2A = "dog";
 let param2B = "dawg";
 
 if ((param1A && param1B) || (param2A && param2B)) {
-  console.log(true);
+  console.log(false);
 }
