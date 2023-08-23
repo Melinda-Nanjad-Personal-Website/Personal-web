@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Famous Art</title>
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <script src="./index.js"></script>
+    <script>
+      // Access the root element using JavaScript
+      const root = document.getElementById("root");
+
+      // Create an h1 element with the name of a famous piece of art: Mona Lisa
+      const h1 = document.createElement("h1");
+      h1.innerHTML = "MONA LISA";
+
+      // Append the h1 element to the root element
+      root.appendChild(h1);
+
+      // Set the image asset and add the image to the root element
+      const img = document.createElement("img");
+      img.src = "./mona_lisa.jpg";
+      root.appendChild(image);
+
+      // Add a p element description to the root element
+      const p = document.createElement("p");
+      p.innerText = "The Mona Lisa is a famous painting.";
+      root.appendChild(p);
+    </script>
+  </body>
+</html>
