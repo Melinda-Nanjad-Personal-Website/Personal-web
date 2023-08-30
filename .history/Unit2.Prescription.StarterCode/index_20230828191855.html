@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Prescription</title>
+  </head>
+  <body>
+    <main>
+      <h1>The Prescription</h1>
+      <section>
+        <h2>Prescription Details</h2>
+        <label>
+          Price per refill
+          <input type="number" name="price" id="price" />
+        </label>
+        <label>
+          Number of refills
+          <input type="number" name="refills" id="refills" />
+        </label>
+        <label>
+          Subscribed?
+          <input type="checkbox" name="subscribed" id="subscribed" />
+        </label>
+        <label>
+          Coupon?
+          <input type="checkbox" name="coupon" id="coupon" />
+        </label>
+        <button id="calculate">Calculate Cost</button>
+      </section>
+      <label>
+        Total Cost
+        <output id="cost">$0.00</output>
+      </label>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>

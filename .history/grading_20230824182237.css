@@ -1,0 +1,16 @@
+body {
+  background-color: rgb(70, 119, 60);
+}
+
+h1 {
+  text-align: center;
+  background-color: rgb(10, 68, 4);
+  color: rgb(192, 140, 7);
+  margin: 0px;
+  padding: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+ul {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
